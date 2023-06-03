@@ -48,6 +48,12 @@ int cl_application::exec_app()
 
 void cl_application::get_callback(std::string& message)
 {
+	if (callback.at(index) == "SHOWTREE") 
+	{
+		show_object_tree();
+		message = "";
+		return;
+	}
 	message = callback.at(index);
 	index++;
 }
