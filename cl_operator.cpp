@@ -17,11 +17,6 @@ size_t cl_operator::get_gas_station_by_name(std::vector<cl_gas_station*> gas_sta
 	return NULL;
 }
 
-int cl_operator::get_served_cars()
-{
-	return served;
-}
-
 std::string cl_operator::get_gas_stations_status(std::vector<cl_gas_station*> gas_stations)
 {
 	int filled = 0, queue = 0;
@@ -36,9 +31,4 @@ std::string cl_operator::get_gas_stations_status(std::vector<cl_gas_station*> ga
 	ret += "\nOperator " + std::to_string(filled) + " " + std::to_string(queue);
 
 	return ret;
-}
-
-void cl_operator::add_served_counter(std::string& message)
-{
-	served++;
 }
