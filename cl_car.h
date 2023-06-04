@@ -7,7 +7,6 @@ class cl_car : public cl_base
 {
 public:
 	cl_car(cl_base*, std::string);
-	~cl_car();
 
 	std::string get_number();	
 private:
