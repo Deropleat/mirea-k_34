@@ -1,7 +1,6 @@
 #ifndef CL_CONTROLLER_H
 #define CL_CONTROLLER_H
 
-#include "cl_gas_station.h"
 #include "cl_operator.h"
 
 class cl_controller : public cl_base
