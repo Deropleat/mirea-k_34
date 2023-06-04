@@ -7,7 +7,6 @@ class cl_base
 {
 public:
 	cl_base(cl_base*, std::string);
-	~cl_base();
 
 	std::string get_object_name();
 
