@@ -160,3 +160,6 @@ Petrol station PS_5 1000 0
 Operator 4 0
 Turn off the system
 ```
+
+---
+### Автор - https://vk.com/aptekkkar
